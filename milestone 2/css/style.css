@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.jumbo{
+    width: 80%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+.anteprime{
+    position: relative;
+    width: 20%;
+    height: 100%;
+}
+
+.box{
+    height: 10vh;
+    border: 1px solid black;
+    background-color: lightcoral;
+}
+
